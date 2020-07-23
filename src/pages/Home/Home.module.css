@@ -1,0 +1,37 @@
+.filter {
+	font-size: 14px;
+	text-align: center;
+}
+.filter div {
+	margin-right: 40px;
+}
+.filter div:last-child {
+	margin-right: 0;
+}
+.wrapperCard {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(205px, 205px));
+	grid-gap: 30px;
+	justify-content: center;
+	margin: 25px 0;
+}
+.loader {
+	margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.filter {
+		margin-top: 50px;
+	}
+	.wrapperCard {
+		grid-template-columns: repeat(auto-fill, minmax(190px, 190px));
+		grid-gap: 10px;
+		padding: 0 10px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.wrapperCard {
+		grid-template-columns: repeat(auto-fill, minmax(160px, 160px));
+	}
+}

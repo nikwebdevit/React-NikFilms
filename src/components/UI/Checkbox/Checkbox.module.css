@@ -1,0 +1,46 @@
+.Checkbox {
+	text-align: left;
+	position: relative;
+}
+.Checkbox .checkboxField {
+	opacity: 0;
+	position: absolute;
+}
+.Checkbox .checkboxLabel {
+	font-style: italic;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+}
+.Checkbox .checkboxLabel::after {
+	content: '';
+	position: absolute;
+	right: -25px;
+	top: 2px;
+	display: inline-block;
+	border: 2px solid #ff6e6e;
+	height: 13px;
+	width: 13px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.Checkbox .checkboxLabel::before {
+	content: '';
+	position: absolute;
+	right: -21px;
+	top: 7px;
+	display: inline-block;
+	height: 3px;
+	width: 6px;
+	border-left: 2px solid #ff6e6e;
+	border-bottom: 2px solid #ff6e6e;
+	transform: rotate(-45deg);
+}
+
+.Checkbox .checkboxField + .checkboxLabel::before {
+	content: none;
+}
+.Checkbox .checkboxField:checked + .checkboxLabel::before {
+	content: '';
+}

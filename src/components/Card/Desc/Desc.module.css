@@ -1,0 +1,43 @@
+.title {
+	font-size: 15px;
+}
+.title span {
+	margin-left: 10px;
+	color: #FDB62D;
+}
+.titleDesc, .imdb {
+	font-size: 10px;
+	font-style: italic;
+	color: #c1c1c1;
+}
+.year {
+	font-size: 13px;
+}
+.rating {
+	color: #FDB62D;
+	font-size: 13px;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	.title {
+		font-size: 14px;
+	}
+	.rating {
+		font-size: 14px;
+	}
+	.titleDesc, .imdb {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.title {
+		font-size: 12px;
+	}
+	.rating {
+		font-size: 12px;
+	}
+	.titleDesc, .imdb {
+		font-size: 10px;
+	}
+}

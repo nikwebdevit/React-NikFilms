@@ -1,0 +1,44 @@
+.Nav ul {
+	list-style: none;
+}
+.Nav li {
+	cursor: pointer;
+	transition: 130ms ease-in;
+}
+.Nav li:hover {
+	opacity: 1;
+}
+.Nav a {
+	color: #fff;
+	opacity: .5;
+	display: block;
+	padding: 20px 0;
+}
+
+.Nav .active {
+	opacity: 1;
+}
+.navMob {
+	display: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.navMob {
+		display: none;
+		font-weight: bold;
+	}
+	.Nav {
+		width: 100%;
+		-webkit-tap-highlight-color: transparent;
+	}
+	.Nav ul {
+		display: flex;
+		width: 100%;
+	}
+	.Nav li {
+		width: 100%;
+	}
+	.Nav a {
+		padding: 10px 0;
+	}
+}

@@ -1,0 +1,58 @@
+.Add {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	color: #3e505d;
+	padding:  20px 20px;
+}
+.Add .btn {
+	text-align: left;
+}
+.Add form > div {
+	margin-top: 15px;
+}
+.Add .isOpenGenre {
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.Add .isOpenGenre .genreRender {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.Add .isOpenGenre > div:last-child {
+	display: flex;
+	flex-direction: column;
+}
+.Add .isOpenGenre > div:last-child > div:first-child {
+
+}
+.Add .isOpenGenre > div:last-child > .addButton {
+	margin-top: 15px;
+	background-color: transparent;
+	width: 50px;
+	align-self: center;
+	border: none;
+	cursor: pointer;
+	color: lightslategrey;
+	transition: 100ms ease-in;
+	outline: none;
+}
+.Add .isOpenGenre > div:last-child > .addButton:hover {
+	color: #ff6e6e;
+}
+
+.loader {
+	margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.Add .isOpenGenre > div:first-child {
+		display: flex;
+		justify-content: left;
+		flex-wrap: wrap;
+	}
+}

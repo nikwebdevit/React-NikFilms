@@ -1,0 +1,18 @@
+.PageTitle {
+	border: 2px solid #ff6e6e;
+	display: inline-block;
+	color: #ff6e6e;
+	font-weight: bold;
+	padding: 5px 25px;
+	border-radius: 20px;
+	transition: 130ms ease-in;
+	pointer-events: none;
+}
+.PageTitle:hover {
+	background-color: #ff6e6e;
+	color: #fff;
+}
+.active {
+	background-color: #ff6e6e;
+	color: #fff;
+}

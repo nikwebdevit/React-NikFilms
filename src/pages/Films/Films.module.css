@@ -1,0 +1,64 @@
+.filter {
+	font-size: 14px;
+	text-align: center;
+}
+.wrapperCard {
+	margin: 25px auto;
+	max-width: 1200px;
+}
+.wrapperCard a {
+	text-decoration: none;
+}
+.wrapperCard li {
+	border-bottom: 2px solid #ff6e6e;
+	padding: 20px 0 15px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	font-weight: bold;
+	color: #1E1E1E;
+}
+.wrapperCard li > span:first-child, .wrapperCard li > div:first-child {
+	transition: 150ms ease-in;
+}
+.wrapperCard li:hover > span:first-child, .wrapperCard li:hover > div:first-child {
+	margin-left: 15px;
+}
+.wrapperCard li > span {
+	margin-right: 10px;
+	background-color: #ff6e6e;
+	border-radius: 10px;
+	margin-top: 1px;
+	height: 20px;
+	width: 20px;
+	align-self: start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapperCard li > span > span {
+	color: #fff;
+	font-size: 12px;
+}
+.wrapperCard li > div:last-child {
+	margin-left: auto;
+}
+.loader {
+	margin-top: 50px;
+}
+.nanPost {
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.filter {
+		margin-top: 50px;
+	}
+	.wrapperCard {
+		padding: 0 10px;
+	}
+}

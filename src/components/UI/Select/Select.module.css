@@ -1,0 +1,20 @@
+.Select {
+	text-align: left;
+}
+.Select label {
+	font-style: italic;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.Select select {
+	margin-left: 10px;
+	background-color: transparent;
+	border: 2px solid #ff6e6e;
+	border-radius: 20px;
+	padding: 3px 10px;
+	font-style: italic;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	outline: none;
+}

@@ -1,0 +1,13 @@
+.Logo {
+	cursor: pointer;
+}
+.Logo a {
+	color: #fff;
+	display: block;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.Logo {
+		display: none;
+	}
+}
